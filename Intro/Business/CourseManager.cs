@@ -31,11 +31,15 @@ namespace Intro.Business
             course3.Name = "Python";
             course3.Description = "Python 3.12";
             course3.Price = 20;
-            courses[0] = course1; courses[1]=course2 ; courses[2]=course3 ;
+            courses[0] = course1; courses[1] = course2; courses[2] = course3;
         }
         public Course[] GetAll()
         {
             return courses;
+        }
+        public void Delete()
+        {
+
         }
     }
 }
