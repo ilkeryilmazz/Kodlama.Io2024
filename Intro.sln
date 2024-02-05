@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro", "Intro\Intro.csproj", "{6529879C-FAE4-4028-A795-C70678930DE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro", "Intro\Intro.csproj", "{6529879C-FAE4-4028-A795-C70678930DE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.Io2024MaskTracking", "Kodlama.Io2024MaskTracking", "{E70A7BE3-2639-4AE9-96BC-D288BD7D7DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaround", "Kodlama.Io2024MaskTracking\Workaround\Workaround.csproj", "{EB53B8D7-7D77-4984-9C00-BB7AA9606657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Kodlama.Io2024MaskTracking\Entities\Entities.csproj", "{818D1C87-1F85-46CA-A460-DB945FC72F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Kodlama.Io2024MaskTracking\Business\Business.csproj", "{82A5997A-4AF9-4329-8001-1D1ABD5C3EB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,26 @@ Global
 		{6529879C-FAE4-4028-A795-C70678930DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6529879C-FAE4-4028-A795-C70678930DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6529879C-FAE4-4028-A795-C70678930DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB53B8D7-7D77-4984-9C00-BB7AA9606657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB53B8D7-7D77-4984-9C00-BB7AA9606657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB53B8D7-7D77-4984-9C00-BB7AA9606657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB53B8D7-7D77-4984-9C00-BB7AA9606657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818D1C87-1F85-46CA-A460-DB945FC72F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818D1C87-1F85-46CA-A460-DB945FC72F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818D1C87-1F85-46CA-A460-DB945FC72F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818D1C87-1F85-46CA-A460-DB945FC72F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A5997A-4AF9-4329-8001-1D1ABD5C3EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A5997A-4AF9-4329-8001-1D1ABD5C3EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A5997A-4AF9-4329-8001-1D1ABD5C3EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A5997A-4AF9-4329-8001-1D1ABD5C3EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB53B8D7-7D77-4984-9C00-BB7AA9606657} = {E70A7BE3-2639-4AE9-96BC-D288BD7D7DC5}
+		{818D1C87-1F85-46CA-A460-DB945FC72F93} = {E70A7BE3-2639-4AE9-96BC-D288BD7D7DC5}
+		{82A5997A-4AF9-4329-8001-1D1ABD5C3EB2} = {E70A7BE3-2639-4AE9-96BC-D288BD7D7DC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3E43C67-5AE9-4294-9174-6B297292D0D9}
